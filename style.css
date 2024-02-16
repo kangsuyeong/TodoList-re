@@ -1,0 +1,103 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 50em;
+    border:2px solid lightgray;
+    padding : 0
+}
+
+body{
+    margin : 0;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.title{
+    font-weight: 700;
+    text-align: center;
+}
+
+.tabs{
+    font-size : 18px;
+    font-weight: 700;
+    padding : 1em;
+    margin: 0 10px;
+    
+}
+
+.line{
+    border:1px solid red;
+}
+
+.menu-area{
+    display: flex;
+    flex-direction: row;
+    cursor : pointer;
+    border-top : 1px solid lightgray;
+    border-bottom : 1px solid lightgray;
+    position: relative;
+  
+}
+
+.task-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom : 1px solid lightgray;
+}
+
+.task-left{
+    display: flex;
+    flex-direction: row;
+}
+.task-done{
+    text-decoration: line-through;
+}
+
+.task-text{
+    font-size:20px;
+}
+
+.buttonCss{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0;
+}
+
+.icon-center{
+    display: flex;
+    justify-content: center;
+}
+
+#input-area{
+    border : 1px solid lightgray;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+#add-button{
+    border : 1px solid lightgray;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    height: 40px;
+}
+
+#underLine{
+    height : 4px;
+    background-color: black;
+    position: absolute;
+    left: 10px;
+    width: 59px;
+    top: 63px;
+    padding : 0px;
+    transition:0.5s
+}
